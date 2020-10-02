@@ -10,8 +10,8 @@ package hcl;
 	   }
 	public static void main(String args[])
 	{
-		add(10,20);
-		sub(20,10);
+		System.out.println(add(10,20));
+		System.out.println(sub(20,10));
 	}	
 	}
 
