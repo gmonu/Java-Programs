@@ -1,11 +1,9 @@
-package hcl;
-
 import java.util.Scanner;
 
 public class Remove {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		Scanner sc = new Scanner(System.in);
 		String s = sc.next();
 		StringBuilder str = new StringBuilder(s);
@@ -27,5 +25,5 @@ public class Remove {
 		}
 		System.out.println(t);
 	}
-
+	System.out.println("Program End");
 }
